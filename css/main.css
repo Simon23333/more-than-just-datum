@@ -10,16 +10,28 @@ header {
   background-color: #ddd;
 }
 
-.medium-grey {
+..cards {
   background-color: #efefef;
 }
 
-table {
+section {
+  background-color: #fff;
+}
+
+.table-wrapper table {
   min-width: 45em;
 }
 
-.white {
-  background-color: #fff;
+@media only screen and (min-width: 38em) {
+
+  .pad-bottom-half, .pad-b-1-2 {
+    padding-bottom: .2rem;
+  }
+
+  .logo {
+    max-width: 175px;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
